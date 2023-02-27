@@ -20,12 +20,7 @@
 &lt { quick_tap_ms = <200>; };
 &mt { quick_tap_ms = <200>; };
 
-
-
 / {
-
-
-{
     macros {
          macro_win_ctrl_left: macro_win_ctrl_left {
             label = "macro_win_ctrl_left";
@@ -42,8 +37,7 @@
         };
     };
 };
-
-{
+/ {
     behaviors {
         win_ctrl_left: win_ctrl_left {
             compatible = "zmk,behavior-mod-morph";
@@ -55,7 +49,7 @@
     };
 };
 
-{
+/ {
     macros {
          macro_win_ctrl_right: macro_win_ctrl_right {
             label = "macro_win_ctrl_right";
@@ -72,7 +66,7 @@
         };
     };
 };
-{
+/ {
     behaviors {
         win_ctrl_right: win_ctrl_right {
             compatible = "zmk,behavior-mod-morph";
@@ -83,6 +77,9 @@
         };
     };
 };
+
+/ {
+
 
         keymap {
                 compatible = "zmk,keymap";
