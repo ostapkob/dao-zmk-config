@@ -20,6 +20,12 @@
 &lt { quick_tap_ms = <200>; };
 &mt { quick_tap_ms = <200>; };
 
+
+
+/ {
+
+
+
 / {
     macros {
          macro_win_ctrl_left: macro_win_ctrl_left {
@@ -78,8 +84,6 @@
     };
 };
 
-
-/ {
         keymap {
                 compatible = "zmk,keymap";
 
